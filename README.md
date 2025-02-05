@@ -7,7 +7,7 @@
 Из `style.scss` взять стили для класса `modal-helper` и перенести в проект.
 
 В рабочем JS-файле объявить экземпляр:
-``` typesript
+```typescript
 const mhElement: HTMLElement | null = document.querySelector('.modal-helper');
 const mh = new ModalHelper(mhElement);
 mh.hide(); // Пример вызова функции
